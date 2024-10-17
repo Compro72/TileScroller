@@ -1,0 +1,104 @@
+body {
+	background-color: #000b35;
+	max-width: 100%;
+	overflow-x: hidden;
+	max-height: 100%;
+	overflow-y: hidden;
+	cursor: none;
+}
+
+#container {
+	background-color: #000b35;
+	cursor: none;
+}
+
+.tile {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	user-select: none;
+	cursor: none;
+}
+
+.Wood-0 {
+	content: url(./Tiles/Wood-0.png);
+}
+
+.Wood-1 {
+	content: url(./Tiles/Wood-1.png);
+}
+
+.Wood-2 {
+	content: url(./Tiles/Wood-2.png);
+}
+
+.Wood-3 {
+	content: url(./Tiles/Wood-3.png);
+}
+
+.Wood-4 {
+	content: url(./Tiles/Wood-4.png);
+}
+
+.Wood-5 {
+	content: url(./Tiles/Wood-5.png);
+}
+
+.Block-Gold {
+	content: url(./Tiles/Block-Gold.png);
+}
+
+.Block-Wood {
+	content: url(./Tiles/Block-Wood.png);
+}
+
+.Blue-1 {
+	content: url(./Tiles/Blue-1.png);
+}
+
+.Blue-2 {
+	content: url(./Tiles/Blue-2.png);
+}
+
+.Blue-3 {
+	content: url(./Tiles/Blue-3.png);
+}
+
+.Blue-4 {
+	content: url(./Tiles/Blue-4.png);
+}
+
+.Blue-5 {
+	content: url(./Tiles/Blue-5.png);
+}
+
+.Blue-6 {
+	content: url(./Tiles/Blue-6.png);
+}
+
+.Blue-7 {
+	content: url(./Tiles/Blue-7.png);
+}
+
+.Blue-8 {
+	content: url(./Tiles/Blue-8.png);
+}
+
+.Blue-9 {
+	content: url(./Tiles/Blue-9.png);
+}
+
+.Blank {
+}
+
+
+.redDot {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	content: url(./cursor.png);
+}
